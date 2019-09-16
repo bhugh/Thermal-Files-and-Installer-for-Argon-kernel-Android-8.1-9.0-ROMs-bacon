@@ -1,4 +1,4 @@
-These files are for tuning the thermal protection paramters of the Argon Kernel for the Oneplus One.  
+These files are for tuning the thermal protection parameters of the Argon Kernel for the Oneplus One.  
 
 WARNING!!!!! 
 Changing the thermal cutoff values can damage and even ruin your CPU and phone permanently!  These settings have NOT been extensively tested, especially not in extreme or unusual systems or under very high and long-lasting loads, and could easily damage your phone under those conditions or any others.  Watch device temperatures and shut down if a dangerous temperature is reached.  
@@ -9,6 +9,8 @@ More about the Argon Kernel here:
 https://forum.xda-developers.com/oneplus-one/development/kernel-argon-kernel-t3833348
 
 The files included in this .zip are based on Tomoms' comments on the discussion thread here: https://forum.xda-developers.com/showpost.php?p=79237804&postcount=238
+
+Tomoms' Argon Kernal Github repository: https://github.com/Tomoms/argon_kernel
 
 ---------
 
