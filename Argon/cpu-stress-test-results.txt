@@ -1,0 +1,28 @@
+CPU STRESS TEST
+
+Using CPU Throttling Test from the Play Store. It runs about 20 threads and keeps all 4 cores at 100%.
+
+Oneplus One, Argon Kernel
+
+** Original Argon thermal files: Steady about 66 degrees
+
+  GIPS: 49K GIPS max, 46K ave, 42K min
+
+** lowX-kernel-thermal: steady at 62-64 degrees, sometimes 65, can rise to 68 after a while
+   X = only difference is max_freq, which can only be applied when the CPU is quite cool
+
+  low1 GIPS: 49K GIPS max, 46K ave, 39K min
+
+
+** medium-low: Goes up to 68-69, 1500-1700, pretty steady
+
+** medium: Goes up to 68-69, 1500-1700, seems steady
+
+** medium-high1: Same
+
+** medium-high2: Same  
+
+   GIPS: 56K GIPS max, 48K ave, 38K min
+
+** high: Immediately crashes/reboots.  This doesn't seem due to thermal issues--it happens too quickly.  Not sure the cause.
+ 
