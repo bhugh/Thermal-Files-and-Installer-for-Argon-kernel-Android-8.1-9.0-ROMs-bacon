@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "profile": {
+    "commands": [
+      {
+        "path": "mpdecision",
+        "command": "setprop ctl.stop mpdecision;stop mpdecision"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu0\/onlinechmod644",
+        "command": "chmod 644 \/sys\/devices\/system\/cpu\/cpu0\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu0\/online",
+        "command": "echo '1' > \/sys\/devices\/system\/cpu\/cpu0\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu0\/onlinechmod444",
+        "command": "chmod 444 \/sys\/devices\/system\/cpu\/cpu0\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu1\/onlinechmod644",
+        "command": "chmod 644 \/sys\/devices\/system\/cpu\/cpu1\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu1\/online",
+        "command": "echo '1' > \/sys\/devices\/system\/cpu\/cpu1\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu1\/onlinechmod444",
+        "command": "chmod 444 \/sys\/devices\/system\/cpu\/cpu1\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu2\/onlinechmod644",
+        "command": "chmod 644 \/sys\/devices\/system\/cpu\/cpu2\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu2\/online",
+        "command": "echo '1' > \/sys\/devices\/system\/cpu\/cpu2\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu2\/onlinechmod444",
+        "command": "chmod 444 \/sys\/devices\/system\/cpu\/cpu2\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu3\/onlinechmod644",
+        "command": "chmod 644 \/sys\/devices\/system\/cpu\/cpu3\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu3\/online",
+        "command": "echo '1' > \/sys\/devices\/system\/cpu\/cpu3\/online"
+      },
+      {
+        "path": "\/sys\/devices\/system\/cpu\/cpu3\/onlinechmod444",
+        "command": "chmod 444 \/sys\/devices\/system\/cpu\/cpu3\/online"
+      },
+      {
+        "path": "\/sys\/kernel\/autosmp\/conf\/max_cpus",
+        "command": "echo '4' > \/sys\/kernel\/autosmp\/conf\/max_cpus"
+      },
+      {
+        "path": "\/sys\/kernel\/autosmp\/conf\/cpufreq_up",
+        "command": "echo '84' > \/sys\/kernel\/autosmp\/conf\/cpufreq_up"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/max_cpus_online",
+        "command": "echo '4' > \/sys\/module\/msm_hotplug\/max_cpus_online"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/boost_lock_duration",
+        "command": "echo '2500' > \/sys\/kernel\/intelli_plug\/boost_lock_duration"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/nr_fshift",
+        "command": "echo '3' > \/sys\/kernel\/intelli_plug\/nr_fshift"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/nr_run_hysteresis",
+        "command": "echo '5' > \/sys\/kernel\/intelli_plug\/nr_run_hysteresis"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/intelli_plug_active",
+        "command": "echo '0' > \/sys\/kernel\/intelli_plug\/intelli_plug_active"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/cpus_boosted",
+        "command": "echo '1' > \/sys\/kernel\/intelli_plug\/cpus_boosted"
+      },
+      {
+        "path": "\/sys\/kernel\/autosmp\/conf\/cycle_down",
+        "command": "echo '2' > \/sys\/kernel\/autosmp\/conf\/cycle_down"
+      },
+      {
+        "path": "\/sys\/kernel\/autosmp\/conf\/cpufreq_down",
+        "command": "echo '60' > \/sys\/kernel\/autosmp\/conf\/cpufreq_down"
+      },
+      {
+        "path": "\/sys\/module\/autosmp\/parameters\/enabled",
+        "command": "echo 'N' > \/sys\/module\/autosmp\/parameters\/enabled"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/cpus_boosted",
+        "command": "echo '1' > \/sys\/module\/msm_hotplug\/cpus_boosted"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/down_lock_duration",
+        "command": "echo '2500' > \/sys\/kernel\/intelli_plug\/down_lock_duration"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/cpu_nr_run_threshold",
+        "command": "echo '944' > \/sys\/kernel\/intelli_plug\/cpu_nr_run_threshold"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/max_cpus_online",
+        "command": "echo '4' > \/sys\/kernel\/intelli_plug\/max_cpus_online"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/max_cpus_online_susp",
+        "command": "echo '2' > \/sys\/module\/msm_hotplug\/max_cpus_online_susp"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/boost_lock_duration",
+        "command": "echo '542' > \/sys\/module\/msm_hotplug\/boost_lock_duration"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/update_rates",
+        "command": "echo '6' > \/sys\/module\/msm_hotplug\/update_rates"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/fast_lane_load",
+        "command": "echo '211' > \/sys\/module\/msm_hotplug\/fast_lane_load"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/min_cpus_online",
+        "command": "echo '1' > \/sys\/kernel\/intelli_plug\/min_cpus_online"
+      },
+      {
+        "path": "\/sys\/kernel\/intelli_plug\/max_cpus_online_susp",
+        "command": "echo '1' > \/sys\/kernel\/intelli_plug\/max_cpus_online_susp"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/io_is_busy",
+        "command": "echo '0' > \/sys\/module\/msm_hotplug\/io_is_busy"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/offline_load",
+        "command": "echo '13' > \/sys\/module\/msm_hotplug\/offline_load"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/msm_enabled",
+        "command": "echo '0' > \/sys\/module\/msm_hotplug\/msm_enabled"
+      },
+      {
+        "path": "\/sys\/module\/msm_hotplug\/min_cpus_online",
+        "command": "echo '1' > \/sys\/module\/msm_hotplug\/min_cpus_online"
+      },
+      {
+        "path": "\/sys\/kernel\/autosmp\/conf\/cycle_up",
+        "command": "echo '1' > \/sys\/kernel\/autosmp\/conf\/cycle_up"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/idle_freq",
+        "command": "echo '960000' > \/sys\/kernel\/msm_mpdecision\/conf\/idle_freq"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/enabled",
+        "command": "echo '1' > \/sys\/kernel\/msm_mpdecision\/conf\/enabled"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/min_cpus",
+        "command": "echo '1' > \/sys\/kernel\/msm_mpdecision\/conf\/min_cpus"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/startdelay",
+        "command": "echo '2000' > \/sys\/kernel\/msm_mpdecision\/conf\/startdelay"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/delay",
+        "command": "echo '70' > \/sys\/kernel\/msm_mpdecision\/conf\/delay"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/max_cpus_online_susp",
+        "command": "echo '2' > \/sys\/kernel\/msm_mpdecision\/conf\/max_cpus_online_susp"
+      },
+      {
+        "path": "\/sys\/kernel\/msm_mpdecision\/conf\/max_cpus",
+        "command": "echo '4' > \/sys\/kernel\/msm_mpdecision\/conf\/max_cpus"
+      }
+    ]
+  }
+}

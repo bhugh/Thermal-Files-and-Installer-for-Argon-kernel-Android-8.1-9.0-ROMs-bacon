@@ -1,0 +1,30 @@
+Available frequencies for Krait 400 (Oneplus One):
+
+268800 422400 652800 729600 883200 960000 1036800 1190400 1267200 1497600 1574400 1728000 1958400 2265600 2457600 2572800 2726400 2880000
+
+A list of available frequencies for your current processor can be found on your device at:
+ 
+ /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+ /sys/devices/system/cpu/cpu1/cpufreq/scaling_available_frequencies
+ 
+
+Default voltages for each freq:
+
+300mhz = 770mV
+422mhz = 775mV
+652mhz = 775mV
+729mhz = 775mV
+883mhz = 785mV
+960mhz = 795mV
+1036mhz = 805mV
+1190mhz = 825mV
+1267mhz = 835mV
+1497mhz = 865mV
+1574mhz = 875mV
+1728mhz = 900mV
+1958mhz = 945mV
+2265mhz =1005mV
+2457mhz =1040mV
+2572mhz = 1095mV
+2726mhz = 1125mV
+2880mhz = 1155mV
